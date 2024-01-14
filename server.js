@@ -76,7 +76,7 @@ app.post('/api/notes', (req, res) => {
 });
 
 // to delete files
-app.delete('/api/notes/id', (req, res) => {
+app.delete('/api/notes/:id', (req, res) => {
     const noteId = req.params.id;
     let dbPath = path.join(__dirname, '/db/db.json')
     fs.readFile(dbPath, 'utf-8', (err, data) => {
@@ -87,7 +87,9 @@ app.delete('/api/notes/id', (req, res) => {
         }
 
         const parsedNotes = JSON.parse(data);
+        
         const updatedNotes = parsedNotes.filter((note) => note.id !== noteId);
+        
 
         fs.writeFile(dbPath, JSON.stringify(updatedNotes), (err) => {
             if (err) {
