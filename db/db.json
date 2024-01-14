@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"title":"Test Title","text":"Test text"},{"title":"New Note Title","text":"New Note Text","id":"c08a85e9-71fd-4a58-8443-6780d2cc5bc2"},{"title":"New new Note Title","text":"New new Note Text","id":"d031a21f-a24c-4bdf-b233-360af51bb997"},{"id":"43fa3ee4-99d5-4347-8f85-297a70da43fe","title":"Test  for fun Title","text":"Test for the text"},{"id":"9a1c99a3-866d-49c9-b460-53f1c913d868","title":"TESTING TITLE","text":"NEW TESTING NOTE"},{"id":"362a882a-fe77-43ce-96e3-2c3d8c3cfac8","title":"New note after changes","text":"Changes made"},{"id":"b41b7dc5-0ec0-4683-9f9c-de1c8875e782","title":"Changed the console","text":"changes to console"},{"id":"d760e8e2-e070-4e84-a6de-1912db609bde","title":"Removed console","text":"removed"}]
